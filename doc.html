@@ -68,6 +68,36 @@
       margin: 1rem 0;
       border: 2px dashed #bdc3c7;
     }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .team-member {
+      background-color: #ecf0f1;
+      border: 2px dashed #bdc3c7;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    .team-photo {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background-color: #bdc3c7;
+      margin-bottom: 0.5rem;
+    }
+
+    .team-name {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .team-role {
+      font-size: 0.9em;
+      color: #7f8c8d;
+    }
 
     @media (min-width: 768px) {
       nav a {
@@ -106,11 +136,52 @@
     <section id="materials" class="section">
         <h2>Materials used</h2>
         <div class="image-placeholder">Image Placeholder</div>
-        <p></p>
+        <p>materials</p>
       </section>
-    <section id="members" class="section">
+      <section id="members" class="section">
         <h2>The team</h2>
-        <div class="image-placeholder">Image Placeholder</div>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 1</div>
+            <div class="team-role">Role</div>
+          </div>
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 2</div>
+            <div class="team-role">Role</div>
+          </div>
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 3</div>
+            <div class="team-role">Role</div>
+          </div>
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 4</div>
+            <div class="team-role">Role</div>
+          </div>
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 5</div>
+            <div class="team-role">Role</div>
+          </div>
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 6</div>
+            <div class="team-role">Role</div>
+          </div>
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 7</div>
+            <div class="team-role">Role</div>
+          </div>
+          <div class="team-member">
+            <div class="team-photo"></div>
+            <div class="team-name">Member 8</div>
+            <div class="team-role">Role</div>
+          </div>
+        </div>
         <p>gandang lalakeh at babaeh</p>
       </section>
   </div>
